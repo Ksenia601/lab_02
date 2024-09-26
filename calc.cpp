@@ -35,3 +35,26 @@ int main() {
   cout << "Результат = " << result;
 
 }
+
+
+
+
+
+
+
+
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double a, b;
+    std::cout << "Введіть число a: ";
+    std::cin >> a;
+    std::cout << "Введіть степінь b: ";
+    std::cin >> b;
+
+    double result = pow(a, b);
+    std::cout << a << " у степені " << b << " = " << result << std::endl;
+
+    return 0;
+}
